@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 0;
+  width: 100%
   min-width: 320px;
 }
 
@@ -17,11 +18,13 @@ body {
   background-color: #2b3851;
   position: relative;
   bottom: 125px;
+  width: 100%;
 }
 
 .robot {
   width: 320px;
   position: relative;
+
 }
 
 .robot-body {
@@ -59,4 +62,12 @@ body {
 .robot:hover .robot-head-right {
   position: relative;
   left: 150px;
+}
+
+.robot .banner {
+  position: absolute;
+}
+
+.robot {
+  position: relative;
 }
