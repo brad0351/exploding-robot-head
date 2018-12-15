@@ -11,35 +11,80 @@ html {
 body {
   margin: 0;
   width: 100%
-  min-width: 320px;
 }
+
+@media only screen and (min-width: 320px) {
+  banner {
+    background-color: #2b3851;
+    position: absolute;
+    position: relative;
+    bottom: 125px;
+  }
+
+  .banner {
+    background-color: #2b3851;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .robot {
+    width: 320px;
+    position: relative;
+  }
+
+  .robot-brain {
+    width: 46px;
+    position: relative;
+    left: 120px;
+    bottom: 280px;
+
+  }
+
+  .robot-head-left {
+    width: 125px;
+    position: relative;
+    bottom: 230px;
+    right: 150px;
+  }
+
+  .robot-head-right {
+    width: 125px;
+    position: relative;
+    bottom: 230px;
+    left: 100px;
+  }
+
+  .robot:hover .robot-head-left {
+    position: relative;
+    right: 180px;
+
+  }
+
+
+@media only screen and (min-width: 980px) {
 
 .banner {
   background-color: #2b3851;
-  position: relative;
-  bottom: 125px;
-  width: 100%;
-}
-
-.robot {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: 10px;
+  width: 100%;
+  margin: auto;
 }
 
 
 .robot-body {
-  width: 320px;
-  position: relative;
-  top: 180px;
+position: relative;
+left: 320px;
 }
 
 .robot-brain {
   width: 46px;
   position: relative;
-  left: 140px;
+  left: 115px;
   bottom: 80px;
+  margin: auto;
 }
 
 .robot-head-left {
@@ -59,17 +104,65 @@ body {
 .robot:hover .robot-head-left {
   position: relative;
   right: 180px;
+  margin: auto;
+}
+
+  .robot .banner {
+    position: absolute;
+    margin: auto;
+  }
+
+  .robot {
+    width: auto;
+    margin: auto;
+  }
+
+
+
+
+ /*
+.robot-brain {
+  width: 46px;
+  position: relative;
+  left: 140px;
+  bottom: 80px;
+  margin: auto;
+}
+
+.robot-head-left {
+  width: 125px;
+  position: relative;
+  bottom: 50px;
+  right: 150px;
+  margin: auto;
+}
+
+.robot-head-right {
+  width: 125px;
+  position: relative;
+  bottom: 50px;
+  left: 100px;
+  margin: auto;
+}
+
+.robot:hover .robot-head-left {
+  position: relative;
+  right: 180px;
+  margin: auto;
 }
 
 .robot:hover .robot-head-right {
   position: relative;
   left: 150px;
+  margin: auto;
 }
 
 .robot .banner {
   position: absolute;
+  margin: auto;
 }
 
 .robot {
   position: relative;
+  margin: auto;
 }
