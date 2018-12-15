@@ -13,47 +13,53 @@ body {
   width: 100%
 }
 
+
+
 @media only screen and (min-width: 320px) {
-  banner {
+  .banner {
     background-color: #2b3851;
-    position: absolute;
     position: relative;
-    bottom: 125px;
+    bottom: 500px;
   }
 
   .banner {
-    background-color: #2b3851;
     position: absolute;
-    top: 10px;
+    top: 0px;
     width: 100%;
     margin: auto;
   }
 
   .robot {
-    width: 320px;
+    width: 280px;
     position: relative;
+  }
+
+  .robot-body {
+  width: 320px;
+  position: relative;
+  top: 40px;
   }
 
   .robot-brain {
     width: 46px;
     position: relative;
-    left: 120px;
-    bottom: 280px;
+    left: 100px;
+    bottom: 220px;
 
   }
 
   .robot-head-left {
-    width: 125px;
+  width: 125px;
     position: relative;
-    bottom: 230px;
-    right: 150px;
+    bottom: 193px;
+    right: 15px;
   }
 
   .robot-head-right {
     width: 125px;
-    position: relative;
-    bottom: 230px;
-    left: 100px;
+    position: absolute;
+    bottom: 200px;
+    left: 160px;
   }
 
   .robot:hover .robot-head-left {
@@ -68,7 +74,7 @@ body {
 .banner {
   background-color: #2b3851;
   position: absolute;
-  top: 10px;
+  top: 0px;
   width: 100%;
   margin: auto;
 }
@@ -83,21 +89,21 @@ left: 320px;
   width: 46px;
   position: relative;
   left: 115px;
-  bottom: 80px;
+  bottom: 40px;
   margin: auto;
 }
 
 .robot-head-left {
   width: 125px;
   position: relative;
-  bottom: 50px;
+  bottom: 20px;
   right: 150px;
 }
 
 .robot-head-right {
   width: 125px;
   position: relative;
-  bottom: 50px;
+  bottom: 20px;
   left: 100px;
 }
 
